@@ -11,11 +11,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: darkgray;
 }
 
 .dog-bg, .cat-bg {
     height: 100vh;
-    transition: all 0.8s ease-in-out;
+    transition: width 0.8s ease-in-out;
 }
 
 .cat-bg {
@@ -47,6 +48,7 @@ body {
     align-items: center;
     flex-direction: column;
     cursor: pointer;
+    overflow: hidden;
 }
 
 hr {
